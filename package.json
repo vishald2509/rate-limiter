@@ -1,5 +1,5 @@
 {
-  "name": "rate-limiter",
+  "name": "rate-limiter-sentry",
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rate-limiter"
+    "url": "git+https://github.com/vishald2509/rate-limiter-sentry"
   },
-  "homepage": "https://github.com/vishald2509/rate-limiter#readme"
+  "homepage": "https://github.com/vishald2509/rate-limiter-sentry#readme"
 }
