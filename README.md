@@ -4,6 +4,8 @@
 
 The `rate-limiter` npm package is a powerful and flexible rate-limiting middleware designed for microservices and distributed systems. It supports various data sources, such as Node cache and Redis, and can be seamlessly integrated into any Node.js library. The primary goal is to prevent resource starvation, improving the availability of API-based services by mitigating unintentional load-based denial-of-service incidents.
 
+The RateLimiter currently supports only the Fixed Window Counter method.
+
 ## Objective ❄️
 
 Prevent resource starvation and improve the availability of API-based services by enforcing rate limits, ensuring fair resource utilization.
@@ -108,6 +110,9 @@ For development environments, set `RATE_LIMIT_HEADER=true`. Adjust other configu
 ## Log on Successful Implementation ⚪
 
 Upon successful implementation, log network calls to the application backend with the specified response headers.
+
+## Further Improvements 🚀
+Check the [To-Do](https://github.com/vishald2509/rate-limiter-sentry/blob/master/todo.md) List for upcoming enhancements and tasks.
 
 ## Good Bye 🎉
 
